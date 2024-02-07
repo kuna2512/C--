@@ -5,12 +5,13 @@ int main()
     int a;
     cout<<"Enter the vaule of a : ";
     cin>>a;
-    cout << "Hello, World!" <<endl;
-    for (int i = 0; i < 100; i++)
+    for (int i = 0; i < a; i++)
     {
+        cout << "Hello, World!" <<endl;
         cout<<"Value of a : "<<a<<"\n";
         a +=20;
     }
+
     
     return 0;
 }
